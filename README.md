@@ -1572,3 +1572,6 @@ The exported Go API of this module should currently be considered unstable, and 
 ## License
 
 This project is licensed under the terms of the MIT open source license. Please refer to [MIT](./LICENSE) for the full terms.
+Provide the specific additions or updates: (e.g., "Add a new toolset entry," "Update the installation instructions for Docker," or "Fix broken links").
+​Specify sections to rephrase or reorganize: (e.g., "Streamline the Read-Only Mode section" or "Translate descriptions into French").
+​Complete the missing content: (e.g., "Finish the truncated section at the bottom of the file").
