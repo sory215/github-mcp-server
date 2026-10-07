@@ -1,6 +1,7 @@
 import { ThemeProvider, BaseStyles, Box } from "@primer/react";
 import type { ReactNode } from "react";
 import { useEffect } from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 interface AppProviderProps {
   children: ReactNode;
@@ -21,6 +22,7 @@ export function AppProvider({ children }: AppProviderProps) {
       <BaseStyles>
         <Box p={3}>{children}</Box>
       </BaseStyles>
+      <Analytics />
     </ThemeProvider>
   );
 }
